@@ -406,6 +406,8 @@ def main():
         "Ok I'll be home in 10 mins, love you",
         "Call me when you're free tonight",
         "Congrats on the new job! We should celebrate, drinks on me",
+        "Thank you for applying to P&G. We’re excited you’re here! If you love P&G brands enough to want to work with us, why not get even closer to them? Join a P&G Brand Fan Club to discover special experiences, take on creative challenges and share what makes your favorite brands worth talking about.", 
+        
     ]
     for text in custom:
         predicted, p_spam = classify(model, text)
